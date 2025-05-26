@@ -249,7 +249,7 @@ if __name__ == "__main__":
 
     if not os.path.exists(checkpoint_dir): os.mkdir(checkpoint_dir)
 
-    # Dataset and Dataloader setup
+    # Dataset and Dataloader 
     train_dataset = Dataset('train')
     test_dataset = Dataset('val')
 
