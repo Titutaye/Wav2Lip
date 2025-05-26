@@ -352,7 +352,7 @@ if __name__ == "__main__":
 
     device = torch.device("cuda" if use_cuda else "cpu")
 
-    # Model
+    # Model to
     model = Wav2Lip().to(device)
     print('total trainable params {}'.format(sum(p.numel() for p in model.parameters() if p.requires_grad)))
 
